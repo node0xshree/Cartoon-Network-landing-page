@@ -1,0 +1,103 @@
+main{
+    background-color:antiquewhite;
+    border: 3px solid black;
+    border-radius:10px ;
+    width: 350px;
+    padding: 20px;
+    text-align: center;
+    margin: 50px auto;
+}
+
+h1{
+    color: black;
+    font-size:large;
+    font-weight:700;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration: underline;
+    text-align: center;
+    line-height:1.5;
+}
+
+h2{
+    color: blue;
+    font-size:medium;
+    font-weight:400;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration:none;
+    text-align: center;
+    line-height:1.5;
+}
+
+h4{
+    color: brown;
+    font-size:medium;
+    font-weight:400;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration:none;
+    text-align: center;
+    line-height:1.5;
+}
+
+ p{
+    color: black;
+    font-size:small;
+    font-weight:400;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration:none;
+    text-align: center;
+    line-height:1.5;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid black;
+    margin:0%;
+}
+
+button{
+    
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+}
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    width:100%;
+    height:100%;
+    background-color:#f3ead7;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.top-bar{
+    height:30px;
+    background-color:rgba(91, 33, 33, 0.887);
+
+}
+nav{
+display:flex;
+align-items:center;
+justify-content:space-around;
+padding :20px;
+}
+.hero{
+    
+    
+    min-height:600px;
+    background-image:url("./coffee1.png");
+    background-size: cover;
+    background-position:center ;
+    padding :60px;
+}
+.Why-us{
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    
+}
